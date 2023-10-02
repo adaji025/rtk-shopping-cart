@@ -4,7 +4,7 @@ import data from "../../data";
 const cartSlice = createSlice({
     name: "cart",
     initialState: {
-        item: data,
+        items: data,
         totalAmount: 0,
         totalQty: 0
     }, 
