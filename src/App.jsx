@@ -1,10 +1,11 @@
-import './App.css';
+import "./App.css";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-     <h1>Shopping Cart</h1>
+      <Navbar />
     </div>
   );
 }
